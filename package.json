@@ -1,0 +1,21 @@
+{
+  "name": "nodejsbeginner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "git": "git add ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhatNguyen2k2/NodejsBeginner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhatNguyen2k2/NodejsBeginner/issues"
+  },
+  "homepage": "https://github.com/PhatNguyen2k2/NodejsBeginner#readme"
+}
