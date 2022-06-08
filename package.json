@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "watch": "nodemon --inspect index.js",
     "git": "git add ."
   },
   "repository": {
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/PhatNguyen2k2/NodejsBeginner/issues"
   },
-  "homepage": "https://github.com/PhatNguyen2k2/NodejsBeginner#readme"
+  "homepage": "https://github.com/PhatNguyen2k2/NodejsBeginner#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
 }
