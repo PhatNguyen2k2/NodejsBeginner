@@ -1,0 +1,22 @@
+<div class="mt-4">
+    <h3>Edit student</h3>
+    <form class="mt-4" method="POST" action="/students/{{student._id}}?_method=PUT">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" value="{{student.name}}" id="name" name = "name">
+        </div>
+        <div class="form-group">
+            <label for="Class">Class</label>
+            <input type="text" class="form-control" value="{{student.Class}}" id="Class" name = "Class">
+        </div>
+        <div class="form-group">
+            <label for="average">Average</label>
+            <input type="text" class="form-control" value="{{student.average}}" id="average" name = "average">
+        </div>
+        <div class="form-group">
+            <label for="image">Image</label>
+            <textarea class="form-control" id="image" name = "image">{{student.image}}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>
