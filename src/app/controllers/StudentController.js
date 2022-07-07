@@ -35,6 +35,12 @@ class StudentController{
             .then(() => res.redirect('/me/stored/students'))
             .catch(next)
     }
+    //[DELETE] /students/:id
+    delete(req, res, next){
+        Student.deleteOne( { _id: req.params.id } )
+            .then(() => res.redirect('back'))
+            .catch(next)
+    }
 }
 
 module.exports = new StudentController
