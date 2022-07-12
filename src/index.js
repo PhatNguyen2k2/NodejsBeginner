@@ -23,7 +23,7 @@ const db = require('./config/db')
 //connect DB
 db.connect()
 //http logger
-app.use(express.static(path.join(__dirname, 'resources\\public'))) //static files
+app.use(express.static(path.join(__dirname, "public"))); //static files
 app.use(morgan("combined"))
 app.use(express.urlencoded({
   extended: true
